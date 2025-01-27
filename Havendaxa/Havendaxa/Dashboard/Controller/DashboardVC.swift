@@ -69,7 +69,10 @@ class DashboardVC: UIViewController {
         fundedImgView.addGestureRecognizer(fundedTapGesture)
     }
     @objc func openTab() {
-        performSegue(withIdentifier: "personalDetailSegue", sender: nil)
+//        performSegue(withIdentifier: "personalDetailSegue", sender: nil)
+//        performSegue(withIdentifier: "PropertyDetailSegue", sender: nil)
+        performSegue(withIdentifier: "ApplicantCategorySegue", sender: nil)
+
     }
     @objc func fundedTab() {
         
