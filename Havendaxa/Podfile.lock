@@ -1,0 +1,44 @@
+PODS:
+  - Alamofire (5.10.2)
+  - ObjectMapper (4.4.2)
+  - SDWebImage (5.20.0):
+    - SDWebImage/Core (= 5.20.0)
+  - SDWebImage/Core (5.20.0)
+  - SkeletonView (1.30.4)
+  - SVPinView (1.0.11)
+  - SVProgressHUD (2.3.1):
+    - SVProgressHUD/Core (= 2.3.1)
+  - SVProgressHUD/Core (2.3.1)
+  - Toast-Swift (5.1.1)
+
+DEPENDENCIES:
+  - Alamofire
+  - ObjectMapper
+  - SDWebImage (~> 5.0)
+  - SkeletonView
+  - SVPinView
+  - SVProgressHUD
+  - Toast-Swift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - ObjectMapper
+    - SDWebImage
+    - SkeletonView
+    - SVPinView
+    - SVProgressHUD
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Alamofire: 7193b3b92c74a07f85569e1a6c4f4237291e7496
+  ObjectMapper: e6e4d91ff7f2861df7aecc536c92d8363f4c9677
+  SDWebImage: 73c6079366fea25fa4bb9640d5fb58f0893facd8
+  SkeletonView: 5a050f6411e697abd4cda0a8d767013399dccd69
+  SVPinView: 9b538d0ba68cdb092afe4f0f67ec84cbed079466
+  SVProgressHUD: 4837c74bdfe2e51e8821c397825996a8d7de6e22
+  Toast-Swift: 7a03a532afe3a560d4044bc7c237e2864d295173
+
+PODFILE CHECKSUM: b99e4e930877fe39b31199be020e62dbc0c7e55c
+
+COCOAPODS: 1.16.2

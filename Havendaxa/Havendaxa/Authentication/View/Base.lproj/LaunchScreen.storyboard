@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="23504" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="23506"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="SplashImage" translatesAutoresizingMaskIntoConstraints="NO" id="0Ea-Bg-nDM">
+                                <rect key="frame" x="97.666666666666671" y="356" width="197.66666666666663" height="140"/>
+                            </imageView>
+                            <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="large" translatesAutoresizingMaskIntoConstraints="NO" id="Twf-do-AvL">
+                                <rect key="frame" x="135.66666666666666" y="581" width="121.99999999999997" height="122"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="Twf-do-AvL" secondAttribute="height" multiplier="1:1" id="2i5-eQ-5yz"/>
+                                </constraints>
+                            </activityIndicatorView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="0Ea-Bg-nDM" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="Abq-R8-Fuk"/>
+                            <constraint firstItem="Twf-do-AvL" firstAttribute="top" secondItem="0Ea-Bg-nDM" secondAttribute="bottom" constant="85" id="JtK-qr-sF5"/>
+                            <constraint firstItem="Twf-do-AvL" firstAttribute="width" secondItem="Ze5-6b-2t3" secondAttribute="width" multiplier="0.310433" id="UmB-Fd-i5v"/>
+                            <constraint firstItem="Twf-do-AvL" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="gK9-8P-peU"/>
+                            <constraint firstItem="0Ea-Bg-nDM" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="zP0-aL-YmP"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.671755725190835" y="374.64788732394368"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="SplashImage" width="197.66667175292969" height="140"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>
